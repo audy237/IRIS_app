@@ -4,7 +4,6 @@ st.subheader("creating dasboard...")
 st.write("Hello Word")
 st.sidebar.slider('valeur', 0, 10)
 treamlit --help
-streamlit run your_script.py
 streamlit hello
 streamlit config show
 $ streamlit cache clear

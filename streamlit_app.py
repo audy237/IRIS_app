@@ -3,18 +3,6 @@ st.title("welcome to NGODOBO Cyrille Dasboard for IRIS Work January 2025")
 st.subheader("creating dasboard...")
 st.write("Hello Word")
 st.sidebar.slider('valeur', 0, 10)
-treamlit --help
-streamlit hello
-streamlit config show
-$ streamlit cache clear
-$ streamlit docs
-streamlit --version
-pip uninstall streamlit
-pip install streamlit-nightly --upgrade
-"""
-Ceci est un texte.
-"""
-"Ceci est aussi un texte."
 1234
 df
 st.text('Texte avec st.text')

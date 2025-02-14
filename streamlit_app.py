@@ -50,37 +50,6 @@ with st.echo('code'):
     st.write('Ce code sera à la fois exécuté et imprimé')
   st.progress(variable_de_progression_de_1_à_100)
 
-with st.spinner(text='En cours')
-    time.sleep(5)
-    st.success('Terminé !')
-
-st.balloons()
-
-st.error('Message d\'erreur')
-st.warning('Message d\'avertissement')
-st.info('Message d\'information')
-st.success('Message de succès')
-
-st.exception(e)
-my_placeholder = st.empty()
-my_placeholder.text("Texte remplacé !")
-
-st.help(pandas.DataFrame)
-
-st.get_option(clé)
-st.set_option(clé, valeur)
-
-st.beta_set_page_config(layout="wide")
-data_generator = st.experimental_data_editor(data)
-my_table = st.table(df)
-my_table.add_rows(df2)
-
-my_chart = st.line_chart(df)
-my_chart.add_rows(df2)
-@st.cache_data
-def foo(bar):
-    # Muter bar
-    return data
 
 # Premier appel
 data = foo(ref1) 

@@ -6,4 +6,5 @@ st.sidebar.slider('Longueur sépal', 0.0, 20.0)
 st.sidebar.slider('Largeur sépal', 0.0, 20.0)
 st.sidebar.slider('Longueur pétal', 0.0, 20.0,)
 st.sidebar.slider('Largeur pétal', 0.0, 20.0)
-st.sidebar.button("Analyser",type="primary")
+if st.sidebar.button("Analyser",type="primary"):
+  st.write("resultat")

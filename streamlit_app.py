@@ -2,9 +2,8 @@ import streamlit as st
 st.title("welcome to NGODOBO Cyrille Dasboard for IRIS Work January 2025")
 st.subheader("creating dasboard...")
 st.write("Hello Word")
-st.sidebar.slider('valeur', 0, 10)
+st.sidebar.slider('valeur', , 20)
 1234
-df
 st.text('Texte avec st.text')
 st.markdown('Texte avec st.markdown')
 st.latex(r'e^{i\pi} + 1 = 0')

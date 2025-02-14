@@ -45,16 +45,3 @@ st.file_uploader('Téléchargez un fichier')
 st.beta_color_picker('Choisissez une couleur')
 valeur_slider = st.slider('Valeur du slider', 0, 10)
 st.stop()
-st.echo()
-with st.echo('code'):
-    st.write('Ce code sera à la fois exécuté et imprimé')
-  st.progress(variable_de_progression_de_1_à_100)
-
-
-# Premier appel
-data = foo(ref1) 
-# Deuxième appel
-data2 = foo(ref2) # Pas exécuté car les arguments sont les mêmes
-
-# Débogage
-st.experimental_rerun()
